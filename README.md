@@ -9,7 +9,7 @@ This project is a practice exercise to enhance my HTML and CSS skills. The desig
 - **Clean HTML:** The HTML is structured to be semantic and easy to understand.
 
 ## Pages Completed
-- [List the pages you’ve completed so far]
+- [List the pages]
 
 ## How to Run
 1. Clone the repository:
