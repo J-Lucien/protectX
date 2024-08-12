@@ -1,0 +1,38 @@
+:export {
+  background-color: #242424;
+  primary-color: #30C224;
+  text-color: #FFFFFF;
+  second-text-color: #91A18F;
+  primary-bg-color: #44BA31;
+  red-color: #D73434;
+  white-color-90: rgba(255, 255, 255, 0.9);
+  linear-gradient: linear-gradient(#83D61B, #44BE30);
+}
+
+footer {
+  display: flex;
+  gap: 172px;
+  justify-content: space-between;
+  height: 146px;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 86px;
+}
+footer .card-contact h3, footer .card-contact p {
+  color: #FFFFFF;
+}
+footer .card-contact .website-log {
+  display: flex;
+  gap: 16px;
+}
+footer .card-contact .website-log img {
+  width: 55px;
+  height: 64px;
+}
+footer .card-contact .website-log h3 span {
+  color: #44BA31;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+/*# sourceMappingURL=footer.css.map */

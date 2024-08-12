@@ -1,0 +1,273 @@
+:export {
+  background-color: #242424;
+  primary-color: #30C224;
+  text-color: #FFFFFF;
+  second-text-color: #91A18F;
+  primary-bg-color: #44BA31;
+  red-color: #D73434;
+  white-color-90: rgba(255, 255, 255, 0.9);
+  linear-gradient: linear-gradient(#83D61B, #44BE30);
+}
+
+main {
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+main .all-commands {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 76px;
+}
+main .all-commands h1 {
+  padding: 0;
+  margin: 0;
+  color: #FFFFFF;
+  font-size: 48px;
+  margin-bottom: 18px;
+}
+main .all-commands h1 span {
+  color: #30C224;
+}
+main .all-commands p {
+  color: #91A18F;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 17px;
+}
+main .search-container {
+  position: relative;
+  max-width: 360px;
+  margin-bottom: 33px;
+  margin-left: 18px;
+}
+main .search-container input[type=search] {
+  position: relative;
+  margin: 0;
+  width: 360px;
+  padding: 10px;
+  padding-right: 25px;
+  caret-color: #30C224;
+  color: #FFFFFF;
+  background-color: #242424;
+  border: none;
+  border-top: 2px solid #30C224;
+  border-bottom: 2px solid #30C224;
+  outline: none;
+  box-sizing: border-box;
+}
+main .search-container input[type=search]::placeholder {
+  color: #91A18F;
+}
+main .search-container input[type=search]:focus {
+  border-color: #30C224;
+  border-left: none;
+}
+main .search-container .ligne-left::before {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 28px;
+  top: -4px;
+  left: -9px;
+  transform: rotate(45deg);
+  background-color: #30C224;
+}
+main .search-container .ligne-left-m-45::before {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 28px;
+  top: 15px;
+  left: -9px;
+  transform: rotate(-45deg);
+  background-color: #30C224;
+}
+main .search-container .ligne-left::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 28px;
+  top: -4px;
+  right: -9px;
+  transform: rotate(-45deg);
+  background-color: #30C224;
+}
+main .search-container .ligne-left-m-45::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 28px;
+  top: 15px;
+  right: -9px;
+  transform: rotate(45deg);
+  background-color: #30C224;
+}
+main .search-container::after {
+  content: url("assets/Search.png");
+  position: absolute;
+  pointer-events: none;
+  right: 0;
+  top: 20%;
+}
+main .links ul {
+  list-style: none;
+  display: flex;
+  gap: 28px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 51px;
+}
+main .links ul li {
+  color: #FFFFFF;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600px;
+}
+main .links ul .polygon {
+  position: relative;
+  width: 3rem;
+  height: 1.5rem;
+  background: linear-gradient(to right, #C7D61B, #32BE1C);
+  clip-path: polygon(0% 50%, 20% 0, 80% 0, 100% 50%, 80% 100%, 20% 100%);
+}
+main .info-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 225px;
+}
+main .info-wrapper .info-content {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-bottom: 30px;
+  box-sizing: content-box;
+  flex-wrap: wrap;
+  position: relative;
+}
+main .info-wrapper .info-content p {
+  color: #91A18F;
+  padding: 0;
+  margin: 0;
+}
+main .info-wrapper .info-content p span {
+  color: #FFFFFF;
+}
+main .info-wrapper .info-content .last-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+main .info-wrapper .info-content .last-info .creator {
+  display: flex;
+  gap: 23px;
+  align-items: center;
+}
+main .info-wrapper .info-content .last-info::before {
+  position: absolute;
+  content: "";
+  width: 2px;
+  height: 20px;
+  left: -8px;
+  top: 11px;
+  background-color: #44BA31;
+  transform: rotate(-45deg);
+}
+main .info-wrapper .info-content .last-info::after {
+  position: absolute;
+  content: "";
+  width: 2px;
+  height: 20px;
+  right: -8px;
+  top: 11px;
+  background-color: #44BA31;
+  transform: rotate(45deg);
+}
+main .info-wrapper .info-content .ligne {
+  position: absolute;
+  margin-right: 12px;
+  width: 100%;
+  height: 2px;
+  background-color: #30C224;
+  bottom: -10px;
+  box-sizing: content-box;
+}
+main .info-wrapper .info-content .remove-queue {
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  bottom: -10px;
+  right: -20px;
+  background-color: #242424;
+}
+main .info-wrapper .info-usage {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  position: relative;
+}
+main .info-wrapper .info-usage div {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+main .info-wrapper .info-usage div h3 {
+  color: #30C224;
+  margin: 0;
+  padding: 0;
+}
+main .info-wrapper .info-usage div p {
+  margin: 0;
+  padding: 0;
+  color: #91A18F;
+}
+main .info-wrapper .info-usage .last-ligne {
+  position: relative;
+}
+main .info-wrapper .info-usage .last-ligne::before {
+  position: absolute;
+  content: "";
+  width: 2px;
+  height: 20px;
+  left: -8px;
+  bottom: -26px;
+  background-color: #44BA31;
+  transform: rotate(-45deg);
+}
+main .info-wrapper .info-usage .last-ligne::after {
+  position: absolute;
+  content: "";
+  width: 2px;
+  height: 20px;
+  right: 4px;
+  bottom: -26px;
+  background-color: #44BA31;
+  transform: rotate(45deg);
+}
+main .info-wrapper .info-usage .ligne-2 {
+  position: absolute;
+  margin-right: 12px;
+  width: 100%;
+  height: 2px;
+  background-color: #30C224;
+  bottom: -25px;
+  box-sizing: content-box;
+}
+main .info-wrapper .info-usage .remove-queue-2 {
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  bottom: -25px;
+  right: -20px;
+  background-color: #242424;
+}
+
+/*# sourceMappingURL=command.css.map */

@@ -1,0 +1,127 @@
+:export {
+  background-color: #242424;
+  primary-color: #30C224;
+  text-color: #FFFFFF;
+  second-text-color: #91A18F;
+  primary-bg-color: #44BA31;
+  red-color: #D73434;
+  white-color-90: rgba(255, 255, 255, 0.9);
+  linear-gradient: linear-gradient(#83D61B, #44BE30);
+}
+
+header .navbar {
+  margin-bottom: 0;
+  max-width: 997px;
+}
+
+.line-left {
+  position: absolute;
+  display: flex;
+  top: 0;
+  left: -53px;
+}
+
+.line-right {
+  position: absolute;
+  top: 543px;
+  right: -5px;
+}
+
+main .hac {
+  margin: 0;
+  padding: 0;
+  color: #30C224;
+  display: flex;
+  justify-content: center;
+  margin-top: 110px;
+  margin-bottom: 111px;
+}
+main .hac span {
+  color: #FFFFFF;
+}
+main .technologies h1 {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  color: #30C224;
+  margin-bottom: 50px;
+}
+main .technologies .techno-body-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  width: 654px;
+  margin: 0 auto;
+}
+main .technologies .techno-body-wrapper .techno-body {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+main .technologies .techno-body-wrapper .techno-body ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+main .technologies .techno-body-wrapper .techno-body ul li {
+  display: flex;
+  align-items: center;
+  gap: 23px;
+  margin-bottom: 23px;
+  color: #FFFFFF;
+}
+
+.creators {
+  width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 222px;
+}
+.creators h1 {
+  color: #30C224;
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+  font-weight: 600px;
+}
+.creators .creators-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.creators .creators-wrapper .creators-cards {
+  display: flex;
+  gap: 20px;
+}
+.creators .creators-wrapper .creators-cards img {
+  width: 105px;
+  height: 105px;
+}
+.creators .creators-wrapper .creators-cards .creators-content h3 {
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 6px;
+}
+.creators .creators-wrapper .creators-cards .creators-content p {
+  color: #91A18F;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 13px;
+}
+.creators .creators-wrapper .creators-cards .creators-content ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.creators .creators-wrapper .creators-cards .creators-content ul li {
+  margin: 0;
+  padding: 0;
+}
+.creators .creators-wrapper .creators-cards .creators-content ul li img {
+  width: 32px;
+  height: 32px;
+}
+
+/*# sourceMappingURL=about.css.map */

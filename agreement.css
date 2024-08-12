@@ -1,0 +1,105 @@
+:export {
+  background-color: #242424;
+  primary-color: #30C224;
+  text-color: #FFFFFF;
+  second-text-color: #91A18F;
+  primary-bg-color: #44BA31;
+  red-color: #D73434;
+  white-color-90: rgba(255, 255, 255, 0.9);
+  linear-gradient: linear-gradient(#83D61B, #44BE30);
+}
+
+header .navbar {
+  margin-bottom: 154px;
+}
+
+.image-vector .left {
+  position: absolute;
+  top: 748px;
+}
+.image-vector .right {
+  position: absolute;
+  top: 104px;
+  right: 0;
+}
+
+main .agreement {
+  display: flex;
+  flex-direction: column;
+  width: 520px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 86px;
+}
+main .agreement h1 {
+  font-size: 48px;
+  margin: 0;
+  padding: 0;
+  color: #FFFFFF;
+}
+main .agreement h1:first-of-type {
+  color: #30C224;
+}
+main .content {
+  width: 795px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  gap: 84px;
+  margin-bottom: 220px;
+}
+main .content .card-wrapper .header {
+  width: max-content;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+}
+main .content .card-wrapper .header h2 {
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  position: relative;
+}
+main .content .card-wrapper .header h2::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: -5px;
+  left: 0;
+  background-color: #30C224;
+}
+main .content .card-wrapper .header .custom-line-left {
+  width: 3px;
+  top: 26px;
+  left: -11px;
+  height: 30px;
+  background-color: #30C224;
+  transform: rotate(-45deg);
+  position: absolute;
+}
+main .content .card-wrapper .header .custom-line-right {
+  width: 3px;
+  top: 26px;
+  right: -11px;
+  height: 30px;
+  background-color: #30C224;
+  transform: rotate(45deg);
+  position: absolute;
+}
+main .content .card-wrapper ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+main .content .card-wrapper ul li {
+  display: flex;
+  align-items: start;
+  gap: 27px;
+  color: #91A18F;
+}
+
+/*# sourceMappingURL=agreement.css.map */

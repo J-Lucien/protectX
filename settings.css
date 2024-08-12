@@ -1,0 +1,128 @@
+:export {
+  background-color: #242424;
+  primary-color: #30C224;
+  text-color: #FFFFFF;
+  second-text-color: #91A18F;
+  primary-bg-color: #44BA31;
+  red-color: #D73434;
+  white-color-90: rgba(255, 255, 255, 0.9);
+  linear-gradient: linear-gradient(#83D61B, #44BE30);
+}
+
+header .navbar .settings .img-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 14px;
+}
+header .navbar .settings .img-wrapper img {
+  width: 29px;
+  margin-bottom: 17px;
+}
+header .navbar .settings .img-wrapper .up-arrow {
+  width: 12px;
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+main .support {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 22px;
+}
+main .support .support-wrapper {
+  display: flex;
+  gap: 26px;
+}
+main .support .support-wrapper img {
+  width: 62px;
+  height: 72px;
+}
+main .support .support-wrapper .support-content h3 {
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 4px;
+}
+main .support .support-wrapper .support-content p {
+  color: #91A18F;
+}
+main .links ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 35px;
+  gap: 31px;
+  list-style: none;
+}
+main .links ul li {
+  color: #91A18F;
+  font-size: 20px;
+}
+main .links ul li:first-of-type {
+  color: #30C224;
+}
+main .slashCommands {
+  width: 200px;
+}
+main .slashCommands fieldset {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+main .slashCommands fieldset label {
+  color: #91A18F;
+}
+main .slashCommands fieldset:first-of-type input {
+  background-color: #242424;
+}
+main .slashCommands fieldset:first-of-type input::placeholder {
+  color: #FFFFFF;
+}
+main .slashCommands fieldset:last-of-type {
+  display: flex;
+  flex-direction: row;
+}
+main .slashCommands .switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+main .slashCommands .switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+main .slashCommands .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+  border-radius: 34px;
+}
+main .slashCommands .slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+main .slashCommands input:checked + .slider {
+  background-color: #2196F3;
+}
+main .slashCommands input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+/*# sourceMappingURL=settings.css.map */

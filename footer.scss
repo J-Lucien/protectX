@@ -1,0 +1,33 @@
+@use 'theme' as *;
+
+footer{
+    display: flex;
+    gap: 172px;
+    justify-content: space-between;
+    height: 146px;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 86px;
+    .card-contact{
+        h3, p{
+            color: $text-color;
+        }
+
+        .website-log{
+            display: flex;
+            gap: 16px;
+            img{
+                width: 55px;
+                height: 64px;
+            }
+
+            h3{
+                span{
+                    color: $primary-bg-color;
+                    font-weight: bold;
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+}

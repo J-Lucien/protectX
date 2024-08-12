@@ -1,0 +1,102 @@
+:export {
+  background-color: #242424;
+  primary-color: #30C224;
+  text-color: #FFFFFF;
+  second-text-color: #91A18F;
+  primary-bg-color: #44BA31;
+  red-color: #D73434;
+  white-color-90: rgba(255, 255, 255, 0.9);
+  linear-gradient: linear-gradient(#83D61B, #44BE30);
+}
+
+header .navbar {
+  align-items: start;
+  margin-bottom: 27px;
+}
+header .navbar ul li {
+  color: #91A18F;
+}
+header .my-servers .img-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 14px;
+}
+header .my-servers .img-wrapper img {
+  width: 29px;
+  margin-bottom: 17px;
+}
+header .my-servers .img-wrapper .up-arrow {
+  width: 12px;
+}
+header .my-servers ul {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  border: 1px solid #44BA31;
+  border-radius: 0.5rem;
+  padding: 11px;
+}
+header .my-servers ul li a {
+  color: #91A18F;
+  text-decoration: none;
+}
+header .my-servers ul li a:hover {
+  color: wheat;
+}
+
+.image .left-image {
+  position: absolute;
+  top: 46px;
+  left: -5px;
+}
+.image .right-image {
+  position: absolute;
+  right: 0;
+}
+
+main .select-servers {
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 362px;
+  max-width: 656.9px;
+  flex-direction: column;
+  align-content: center;
+}
+main .select-servers h1 {
+  color: #FFFFFF;
+  font-size: 48px;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 98px;
+}
+main .select-servers h1 span {
+  color: #30C224;
+}
+main .select-servers .server-wrapper {
+  display: flex;
+  gap: 82px;
+}
+main .select-servers .server-wrapper .server-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .select-servers .server-wrapper .server-card img {
+  margin-bottom: 17px;
+  width: 129px;
+}
+main .select-servers .server-wrapper .server-card h3 {
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 28px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-bottom: 17px;
+  text-align: center;
+}
+main .select-servers .server-wrapper .server-card a {
+  color: #30C224;
+}
+
+/*# sourceMappingURL=our-servers.css.map */
