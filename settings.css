@@ -57,72 +57,176 @@ main .links ul {
   gap: 31px;
   list-style: none;
 }
-main .links ul li {
+main .links ul li a {
   color: #91A18F;
   font-size: 20px;
+  text-decoration: none;
 }
-main .links ul li:first-of-type {
+main .links ul li:first-of-type a {
   color: #30C224;
 }
 main .slashCommands {
-  width: 200px;
+  max-width: max-content;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-bottom: 142px;
 }
 main .slashCommands fieldset {
   margin: 0;
+  margin-left: 18px;
   padding: 0;
   border: none;
 }
 main .slashCommands fieldset label {
   color: #91A18F;
 }
+main .slashCommands fieldset:first-of-type {
+  position: relative;
+  margin-bottom: 27px;
+}
+main .slashCommands fieldset:first-of-type label {
+  position: absolute;
+  bottom: 28px;
+  background-color: #242424;
+  margin-left: 10px;
+  padding: 0 4px;
+}
+main .slashCommands fieldset:first-of-type label::after {
+  content: "*";
+  color: red;
+}
 main .slashCommands fieldset:first-of-type input {
   background-color: #242424;
+  border: 2px solid #91A18F;
+  border-left: none;
+  border-right: none;
+  padding: 8px;
+  font-size: 16px;
+  color: #FFFFFF;
+  outline: none;
 }
 main .slashCommands fieldset:first-of-type input::placeholder {
   color: #FFFFFF;
 }
+main .slashCommands fieldset:first-of-type input:focus {
+  color: #FFFFFF;
+}
+main .slashCommands fieldset:first-of-type .ligne-45::before {
+  content: "";
+  width: 25px;
+  height: 2px;
+  background-color: #91A18F;
+  left: -21px;
+  top: 26px;
+  transform: rotate(45deg);
+  position: absolute;
+}
+main .slashCommands fieldset:first-of-type .ligne-m-45::before {
+  content: "";
+  width: 25px;
+  height: 2px;
+  background-color: #91A18F;
+  left: -21px;
+  top: 8px;
+  transform: rotate(-45deg);
+  position: absolute;
+}
+main .slashCommands fieldset:first-of-type .ligne-45::after {
+  content: "";
+  width: 25px;
+  height: 2px;
+  background-color: #91A18F;
+  right: -21px;
+  top: 27px;
+  transform: rotate(-45deg);
+  position: absolute;
+}
+main .slashCommands fieldset:first-of-type .ligne-m-45::after {
+  content: "";
+  width: 25px;
+  height: 2px;
+  background-color: #91A18F;
+  right: -21px;
+  top: 9px;
+  transform: rotate(45deg);
+  position: absolute;
+}
 main .slashCommands fieldset:last-of-type {
   display: flex;
   flex-direction: row;
+  gap: 20px;
+  margin-left: 0px;
+  align-items: center;
 }
-main .slashCommands .switch {
+main .slashCommands fieldset:last-of-type .switch-commands {
+  width: 40px;
+  height: 24px;
+  border: 2px solid #30C224;
+  border-left: none;
+  border-right: none;
+  display: flex;
+  justify-content: flex-start;
   position: relative;
-  display: inline-block;
-  width: 60px;
-  height: 34px;
 }
-main .slashCommands .switch input {
-  opacity: 0;
-  width: 0;
-  height: 0;
+main .slashCommands fieldset:last-of-type .switch-commands .ligne-command-45::before,
+main .slashCommands fieldset:last-of-type .switch-commands .ligne-command-m-45::before,
+main .slashCommands fieldset:last-of-type .switch-commands .ligne-command-45::after,
+main .slashCommands fieldset:last-of-type .switch-commands .ligne-command-m-45::after {
+  position: absolute;
+  content: "";
+  width: 19px;
+  height: 2px;
+  background-color: #30C224;
 }
-main .slashCommands .slider {
+main .slashCommands fieldset:last-of-type .switch-commands .ligne-command-45::before {
+  left: -16px;
+  top: 5px;
+  transform: rotate(-45deg);
+}
+main .slashCommands fieldset:last-of-type .switch-commands .ligne-command-m-45::before {
+  left: -16px;
+  top: 17px;
+  transform: rotate(45deg);
+}
+main .slashCommands fieldset:last-of-type .switch-commands .ligne-command-45::after {
+  right: -16px;
+  top: 5px;
+  transform: rotate(45deg);
+}
+main .slashCommands fieldset:last-of-type .switch-commands .ligne-command-m-45::after {
+  right: -16px;
+  top: 17px;
+  transform: rotate(-45deg);
+}
+main .slashCommands fieldset:last-of-type .switch-commands .slider-command {
   position: absolute;
   cursor: pointer;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #ccc;
   transition: 0.4s;
-  border-radius: 34px;
 }
-main .slashCommands .slider:before {
+main .slashCommands fieldset:last-of-type .switch-commands .slider-command::before {
   position: absolute;
   content: "";
-  height: 26px;
-  width: 26px;
-  left: 4px;
-  bottom: 4px;
-  background-color: white;
+  width: 15px;
+  height: 15px;
+  background-color: #91A18F;
+  left: 11%;
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
   transition: 0.4s;
-  border-radius: 50%;
 }
-main .slashCommands input:checked + .slider {
-  background-color: #2196F3;
+main .slashCommands fieldset:last-of-type .switch-commands input {
+  opacity: 0;
+  width: 0;
+  height: 0;
 }
-main .slashCommands input:checked + .slider:before {
-  transform: translateX(26px);
+main .slashCommands fieldset:last-of-type .switch-commands input:checked + .slider-command::before {
+  background-color: #30C224;
+  transform: translateX(23px) translateY(-50%) rotate(45deg);
 }
 
 /*# sourceMappingURL=settings.css.map */

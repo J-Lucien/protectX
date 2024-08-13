@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +11,7 @@
     <link rel="stylesheet" href="settings.css">
     <link rel="stylesheet" href="footer.css">
 </head>
+
 <body>
     <header>
         <nav class="navbar">
@@ -40,27 +42,29 @@
 
         <section class="links">
             <ul>
-                <li>Home</li>
-                <li>Anti-Raid</li>
-                <li>Greetings</li>
-                <li>Whitelist</li>
-              </ul>              
+                <li><a href="#home">Home</a></li>
+                <li><a href="#anti-raid">Anti-Raid</a></li>
+                <li><a href="#greetings">Greetings</a></li>
+                <li><a href="whitelist-settings.html">Whitelist</a></li>
+            </ul>
         </section>
 
         <section class="slashCommands">
-            <label class="switch">
-                <input type="checkbox">
-                <span class="slider"></span>
-              </label>
-              
+
             <fieldset>
-                <label for="prefix">Prefix *</label>
+                <label for="prefix">Prefix </label>
                 <input type="text" id="prefix" placeholder="!">
+                <div class="ligne-45"></div>
+                <div class="ligne-m-45"></div>
             </fieldset>
             <fieldset>
                 <label for="commands">Slash Commands</label>
-                <input type="checkbox" id="commands">
-                <span class="slider-command"></span>
+                <label class="switch-commands">
+                    <input type="checkbox">
+                    <span class="slider-command"></span>
+                    <div class="ligne-command-45"></div>
+                    <div class="ligne-command-m-45"></div>
+                </label>
             </fieldset>
         </section>
     </main>
@@ -86,4 +90,5 @@
         </div>
     </footer>
 </body>
+
 </html>
