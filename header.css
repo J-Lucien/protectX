@@ -18,6 +18,19 @@ header .navbar {
   margin-top: 25px;
   margin-bottom: 134px;
 }
+header .navbar .settings .img-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 14px;
+}
+header .navbar .settings .img-wrapper img {
+  width: 29px;
+  margin-bottom: 17px;
+}
+header .navbar .settings .img-wrapper .up-arrow {
+  width: 12px;
+}
 header ul {
   display: flex;
   list-style: none;
