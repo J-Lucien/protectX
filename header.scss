@@ -9,6 +9,26 @@ header {
         max-width: 1024px;
         margin-top: 25px;
         margin-bottom: 134px;
+
+        .settings {
+            .img-wrapper {
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                gap: 14px;
+
+                img {
+                    width: 29px;
+                    margin-bottom: 17px;
+                }
+
+                .up-arrow {
+                    width: 12px;
+                }
+            }
+
+        }
+
     }
 
     ul {
@@ -30,7 +50,7 @@ header {
             -webkit-text-fill-color: transparent;
         }
 
-        li img{
+        li img {
             color: $second-text-color;
         }
     }

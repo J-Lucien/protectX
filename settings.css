@@ -9,20 +9,6 @@
   linear-gradient: linear-gradient(#83D61B, #44BE30);
 }
 
-header .navbar .settings .img-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 14px;
-}
-header .navbar .settings .img-wrapper img {
-  width: 29px;
-  margin-bottom: 17px;
-}
-header .navbar .settings .img-wrapper .up-arrow {
-  width: 12px;
-}
-
 main {
   max-width: 1000px;
   margin: 0 auto;

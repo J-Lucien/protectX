@@ -1,29 +1,6 @@
 @use 'theme' as *;
 
 
-header {
-    .navbar {
-        .settings {
-            .img-wrapper {
-                display: flex;
-                align-items: center;
-                justify-content: flex-end;
-                gap: 14px;
-
-                img {
-                    width: 29px;
-                    margin-bottom: 17px;
-                }
-
-                .up-arrow {
-                    width: 12px;
-                }
-            }
-
-        }
-    }
-}
-
 main {
     max-width: 1000px;
     margin: 0 auto;
