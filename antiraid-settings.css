@@ -1,0 +1,197 @@
+:export {
+  background-color: #242424;
+  primary-color: #30C224;
+  text-color: #FFFFFF;
+  second-text-color: #91A18F;
+  primary-bg-color: #44BA31;
+  red-color: #D73434;
+  white-color-90: rgba(255, 255, 255, 0.9);
+  linear-gradient: linear-gradient(#83D61B, #44BE30);
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+main .support {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 22px;
+}
+main .support .support-wrapper {
+  display: flex;
+  gap: 26px;
+}
+main .support .support-wrapper img {
+  width: 62px;
+  height: 72px;
+}
+main .support .support-wrapper .support-content h3 {
+  color: #FFFFFF;
+  margin: 0 0 4px 0;
+  padding: 0;
+}
+main .support .support-wrapper .support-content p {
+  color: #91A18F;
+}
+main .links ul {
+  display: flex;
+  margin: 0 0 35px 0;
+  padding: 0;
+  gap: 31px;
+  list-style: none;
+}
+main .links ul li {
+  font-size: 20px;
+}
+main .links ul li a {
+  color: #91A18F;
+  font-size: 20px;
+  text-decoration: none;
+}
+main .links ul li a.active {
+  color: #30C224;
+}
+main .antiraid-wrapper {
+  max-width: 492px;
+  margin-bottom: 124px;
+}
+main .antiraid-wrapper .antiraid-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+main .antiraid-wrapper .antiraid-content fieldset {
+  display: flex;
+  justify-content: space-between;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+main .antiraid-wrapper .antiraid-content fieldset label:first-of-type {
+  color: #91A18F;
+}
+main .antiraid-wrapper .antiraid-content fieldset .switch {
+  width: 53px;
+  height: 24px;
+  border: 2px solid #30C224;
+  border-left: none;
+  border-right: none;
+  display: flex;
+  position: relative;
+}
+main .antiraid-wrapper .antiraid-content fieldset .switch .hidden-top {
+  position: relative;
+}
+main .antiraid-wrapper .antiraid-content fieldset .switch .hidden-top::before {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 3px;
+  background-color: #242424;
+  left: -38.5px;
+  top: -3px;
+}
+main .antiraid-wrapper .antiraid-content fieldset .switch .hidden-top::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 3px;
+  background-color: #242424;
+  right: -41px;
+  top: -3px;
+}
+main .antiraid-wrapper .antiraid-content fieldset .switch .hidden-bottom {
+  position: relative;
+}
+main .antiraid-wrapper .antiraid-content fieldset .switch .hidden-bottom::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 3px;
+  left: -28.5px;
+  bottom: -2px;
+  background-color: #242424;
+}
+main .antiraid-wrapper .antiraid-content fieldset .switch .hidden-bottom::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 3px;
+  right: -41px;
+  bottom: -2px;
+  background-color: #242424;
+}
+main .antiraid-wrapper .antiraid-content fieldset .switch .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: 0.4s;
+}
+main .antiraid-wrapper .antiraid-content fieldset .switch .slider::after {
+  position: absolute;
+  content: "";
+  width: 11px;
+  height: 11px;
+  background-color: #30C224;
+  transform: translate(34px, 62%) rotate(45deg);
+  transition: 0.4s;
+}
+main .antiraid-wrapper .antiraid-content fieldset .switch input {
+  opacity: 0;
+}
+main .antiraid-wrapper .antiraid-content fieldset .switch input:checked + .slider::after {
+  background-color: #91A18F;
+  transform: translate(70%, 62%) rotate(45deg);
+}
+main .antiraid-wrapper .antiraid-content fieldset .switch .ligne-top {
+  position: relative;
+}
+main .antiraid-wrapper .antiraid-content fieldset .switch .ligne-top::before {
+  position: absolute;
+  content: "";
+  width: 19px;
+  height: 2px;
+  left: -24px;
+  top: 5px;
+  background-color: #30C224;
+  transform: rotate(-45deg);
+}
+main .antiraid-wrapper .antiraid-content fieldset .switch .ligne-top::after {
+  position: absolute;
+  content: "";
+  width: 19px;
+  height: 2px;
+  right: -37px;
+  top: 5px;
+  background-color: #30C224;
+  transform: rotate(45deg);
+}
+main .antiraid-wrapper .antiraid-content fieldset .switch .ligne-bottom {
+  position: relative;
+}
+main .antiraid-wrapper .antiraid-content fieldset .switch .ligne-bottom::before {
+  position: absolute;
+  content: "";
+  width: 19px;
+  height: 2px;
+  left: -24px;
+  bottom: 5px;
+  background-color: #30C224;
+  transform: rotate(45deg);
+}
+main .antiraid-wrapper .antiraid-content fieldset .switch .ligne-bottom::after {
+  position: absolute;
+  content: "";
+  width: 19px;
+  height: 2px;
+  right: -37px;
+  bottom: 5px;
+  background-color: #30C224;
+  transform: rotate(-45deg);
+}
+
+/*# sourceMappingURL=antiraid-settings.css.map */
