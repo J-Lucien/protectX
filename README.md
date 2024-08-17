@@ -9,7 +9,15 @@ This project is a practice exercise to enhance my HTML and CSS skills. The desig
 - **Clean HTML:** The HTML is structured to be semantic and easy to understand.
 
 ## Pages Completed
-- [List the pages]
+- index.html
+- about.html
+- agreement.html
+- commands.html
+- our-servers.html
+- settings.html
+- whitelist-settings.html
+- antiraid-settings.html
+- greeting-settings.html
 
 ## How to Run
 1. Clone the repository:
