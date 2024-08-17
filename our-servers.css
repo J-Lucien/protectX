@@ -38,11 +38,11 @@ header .my-servers ul {
   padding: 11px;
 }
 header .my-servers ul li a {
-  color: #91A18F;
+  color: #FFFFFF;
   text-decoration: none;
 }
 header .my-servers ul li a:hover {
-  color: wheat;
+  color: #30C224;
 }
 
 .image .left-image {

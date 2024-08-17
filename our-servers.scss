@@ -42,12 +42,12 @@ header {
 
             li {
                 a{
-                    color: $second-text-color;
+                    color: $text-color;
                     text-decoration: none;
                 }
 
                 a:hover{
-                    color: wheat;
+                    color: $primary-color;
                 }
             }
         }
