@@ -41,7 +41,15 @@ header {
         li {
             display: flex;
             gap: 7px;
-            color: $second-text-color;
+
+            a {
+                color: $second-text-color;
+                text-decoration: none;
+
+                &:hover{
+                    color: $primary-bg-color;
+                }
+            }
         }
 
         .active {

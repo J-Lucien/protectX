@@ -1,6 +1,13 @@
 @use 'theme' as *;
 
 footer{
+
+    .active {
+        background: linear-gradient(#C7D61B, #32BE1C);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
     display: flex;
     gap: 172px;
     justify-content: space-between;
@@ -11,6 +18,14 @@ footer{
     .card-contact{
         h3, p{
             color: $text-color;
+            a{
+                color: $text-color;
+                text-decoration: none;
+                font-size: 16px;
+                &:hover{
+                    color: $primary-color;
+                }
+            }
         }
 
         .website-log{

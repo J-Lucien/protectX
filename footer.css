@@ -18,8 +18,21 @@ footer {
   margin: 0 auto;
   margin-bottom: 86px;
 }
+footer .active {
+  background: linear-gradient(#C7D61B, #32BE1C);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 footer .card-contact h3, footer .card-contact p {
   color: #FFFFFF;
+}
+footer .card-contact h3 a, footer .card-contact p a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 16px;
+}
+footer .card-contact h3 a:hover, footer .card-contact p a:hover {
+  color: #30C224;
 }
 footer .card-contact .website-log {
   display: flex;

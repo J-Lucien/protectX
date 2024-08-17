@@ -52,6 +52,9 @@ main .links ul li a {
 main .links ul li a.active {
   color: #30C224;
 }
+main .links ul li a:hover {
+  color: #30C224;
+}
 main .antiraid-wrapper {
   max-width: 492px;
   margin-bottom: 124px;
