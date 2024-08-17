@@ -48,6 +48,9 @@ main .links ul li a {
   font-size: 20px;
   text-decoration: none;
 }
+main .links ul li a:hover {
+  color: #30C224;
+}
 main .links ul li:first-of-type a {
   color: #30C224;
 }
