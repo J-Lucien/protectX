@@ -32,7 +32,7 @@ This project is a practice exercise to enhance my HTML and CSS skills. The desig
 
 ## Figma Design
 The design for this project is based on the following Figma prototype:
-- Link to the Figma design : https://www.figma.com/design/pGPWDvGmyjIuzJ9l3ZQfpY/Discord-bot-panel-(Community)?node-id=0-1&t=jlKtwCi9HcBwA0Pi-0
+- [Figma design](https://www.figma.com/design/pGPWDvGmyjIuzJ9l3ZQfpY/Discord-bot-panel-(Community)?node-id=0-1&t=jlKtwCi9HcBwA0Pi-0)
 
 ## License
 This project is for personal practice and is not licensed for commercial use.
@@ -40,4 +40,4 @@ This project is for personal practice and is not licensed for commercial use.
 ## Contact
 For any questions or suggestions, feel free to reach out to me:
 - Email: jtolojanahary5@gmail.com
-- GitHub: https://github.com/J-Lucien
+- [GitHub](https://github.com/J-Lucien)
