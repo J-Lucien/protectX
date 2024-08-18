@@ -4,9 +4,9 @@
 This project is a practice exercise to enhance my HTML and CSS skills. The design is based on a Figma prototype, and the goal is to replicate the layout and styling as closely as possible.
 
 ## Features
-- **Responsive Design:** The pages are designed to be responsive, ensuring compatibility across different devices.
 - **SCSS for Styling:** SCSS is used to structure and manage the styling efficiently.
 - **Clean HTML:** The HTML is structured to be semantic and easy to understand.
+- **Work in Progress:** The project is still being developed, and full responsiveness across different screen sizes is yet to be implemented.
 
 ## Pages Completed
 - index.html
