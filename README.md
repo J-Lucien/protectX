@@ -39,5 +39,5 @@ This project is for personal practice and is not licensed for commercial use.
 
 ## Contact
 For any questions or suggestions, feel free to reach out to me:
-- Email: jtolojanahary5@gmail.com
-- [GitHub](https://github.com/J-Lucien)
+[![Email](./assets/gmail-con.png)](mailto:jtolojanahary5@gmail.com)
+[![GitHub](./assets/github-icon.png)](https://github.com/J-Lucien)
