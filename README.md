@@ -44,11 +44,8 @@ For any questions or suggestions, feel free to reach out to me:
     <a href="mailto:jtolojanahary5@gmail.com" style="margin-left:10px">
   <img src="./assets/gmail-con.png" alt="Email" style="width:30px; height:30px; vertical-align: middle;">
 </a>
-<a href="https://github.com/J-Lucien" style="margin-left: 10px;">
-  <img src="./assets/github-icon.png" alt="GitHub" style="width:30px; height:30px; vertical-align: middle;">
-</a>
 <a href="https://www.linkedin.com/in/jean-lucien-tolojanahary-92749b272/" style="margin-left: 10px;">
-  <img src="./assets/likedin-icon.webp" alt="Linkedin" style="width:30px; height:30px; vertical-align: middle;">
+  <img src="./assets/linkedin-icon.webp" alt="Linkedin" style="width:30px; height:30px; vertical-align: middle;">
 </a>
 </div>
 
