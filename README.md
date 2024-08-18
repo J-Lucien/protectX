@@ -54,6 +54,5 @@ The icons used in this project are from Flaticon:
 
 - **Gmail Icon**: <a href="https://www.flaticon.com/fr/icones-gratuites/gmail" title="gmail icônes">Gmail icônes créées par Freepik - Flaticon</a>
 - **LinkedIn Icon**: <a href="https://www.flaticon.com/fr/icones-gratuites/linkedin" title="linkedin icônes">Linkedin icônes créées par Freepik - Flaticon</a>
-- **GitHub Icon**: <a href="https://www.flaticon.com/fr/icones-gratuites/github" title="github icônes">Github icônes créées par Pixel perfect - Flaticon</a>
 
 
