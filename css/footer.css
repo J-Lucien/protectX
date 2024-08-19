@@ -11,41 +11,63 @@
 
 footer {
   display: flex;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+}
+footer .contact-wrapper {
+  display: flex;
   gap: 172px;
   justify-content: space-between;
   height: 146px;
-  max-width: 1000px;
   margin: 0 auto;
   margin-bottom: 86px;
 }
-footer .active {
+footer .contact-wrapper .active {
   background: linear-gradient(#C7D61B, #32BE1C);
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-footer .card-contact h3, footer .card-contact p {
+footer .contact-wrapper .card-contact h3, footer .contact-wrapper .card-contact p {
   color: #FFFFFF;
 }
-footer .card-contact h3 a, footer .card-contact p a {
+footer .contact-wrapper .card-contact h3 a, footer .contact-wrapper .card-contact p a {
   color: #FFFFFF;
   text-decoration: none;
   font-size: 16px;
 }
-footer .card-contact h3 a:hover, footer .card-contact p a:hover {
+footer .contact-wrapper .card-contact h3 a:hover, footer .contact-wrapper .card-contact p a:hover {
   color: #30C224;
 }
-footer .card-contact .website-log {
+footer .contact-wrapper .card-contact .website-log {
   display: flex;
   gap: 16px;
 }
-footer .card-contact .website-log img {
+footer .contact-wrapper .card-contact .website-log img {
   width: 55px;
   height: 64px;
 }
-footer .card-contact .website-log h3 span {
+footer .contact-wrapper .card-contact .website-log h3 span {
   color: #44BA31;
   font-weight: bold;
   font-size: 25px;
+}
+footer .figma {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #91A18F;
+  align-items: center;
+}
+footer .figma p {
+  color: #91A18F;
+  padding-left: 16px;
+}
+footer .copyright {
+  text-align: center;
+  margin-top: 48px;
+  margin-bottom: 32px;
+  color: #91A18F;
 }
 
 /*# sourceMappingURL=footer.css.map */
